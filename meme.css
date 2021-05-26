@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "Field";
+  src:url('FieldGuide.ttf');
+}
+
+body {
+  background-color: #022736;
+  color: white;
+  margin:0px;
+}
+
+header {
+  margin-left: 20px;
+  margin-top: 20px;
+  display: flex;
+}
+
+a {
+  display: flex;
+  text-decoration: none;
+
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+#meme {
+  font-family: "Comic Sans MS", Comic Sans, cursive;
+  color: #1894f8;
+  font-size: 45px;
+}
+
+#station {
+  font-family: "Field";
+  font-size: 54px;
+  color: #F81894;
+}
+
+#espace {
+  color: #022736;
+}
+
+nav {
+    padding-bottom: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+ul {
+  display: flex;
+  list-style-type: 	none;
+  justify-content: center;
+  margin: 0;
+}
+
+li {
+  padding: 5px 80px;
+
+}
+
+#pop {
+  background-color: #0bf080;
+  color: #022736;
+}
+
+#an {
+  background-color: #f00d0b;
+  color: white;
+}
+
+#fo {
+  background-color: #0BEEF0;
+    color: #022736;
+}
+
+#lo1 {
+  background-color: #F00BEE;
+  color: white;
+}
+
+#lo2 {
+  background-color: #EEF00B;
+  color: #022736;
+}
+
+#news {
+  display: flex;
+}
+
+h3 {
+  font-family: "Field";
+  font-size: 30px;
+  margin-bottom: 15px;
+  margin-top: 0px;
+}
+
+article {
+  font-family: "Comic Sans MS", Comic Sans, cursive;
+  height: 160px;
+  width: 400px;
+  margin-right: 30px;
+  margin-left: 20px;
+  border: 1px solid #046286;
+  padding: 10px;
+}
+
+article p {
+  margin: 0;
+}
+
+#random {
+  background-color: #011b25;
+}
+
+#recent {
+  background-color: #011b25;
+}
+
+#recent2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+div {
+  padding: 0px 20px;
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
+
+#homme, #fille {
+  height:208px;
+}
+
+#sonic {
+  height:80px;
+  margin-bottom: 5px;
+}
