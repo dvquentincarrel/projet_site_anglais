@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Field";
-    src:url('FieldGuide.ttf');
+    src:url('../fonts/FieldGuide.ttf');
 }
 
 body {
