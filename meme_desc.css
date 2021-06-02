@@ -1,0 +1,210 @@
+@font-face {
+  font-family: "Field";
+  src:url('FieldGuide.ttf');
+}
+
+body {
+  background-color: #022736;
+  color: white;
+  margin:0px;
+}
+
+header {
+  margin-left: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header a, nav a {
+  display: flex;
+  text-decoration: none;
+}
+
+h1,h4 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+#meme {
+  font-family: "Comic Sans MS", Comic Sans, cursive;
+  color: #1894f8;
+  font-size: 45px;
+}
+
+#station {
+  font-family: "Field";
+  font-size: 54px;
+  color: #F81894;
+}
+
+#espace {
+  color: #022736;
+}
+
+nav {
+  padding-bottom: 0px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Comic Sans MS", Comic Sans, cursive;
+}
+
+ul {
+  display: flex;
+  list-style-type: 	none;
+  justify-content: center;
+  margin: 0;
+  padding:0;
+  background: linear-gradient(to right,#0bf080 50%, #EEF00B 50%)
+}
+
+li {
+  padding: 5px 80px;
+
+}
+
+
+#pop {
+  background-color: #0bf080;
+  color: #022736;
+}
+
+#an {
+  background-color: #f00d0b;
+  color: white;
+  background: linear-gradient(to right, #0bf080,#f00d0b 10%, #f00d0b 90%, #0BEEF0);
+}
+
+#fo {
+  background-color: #0BEEF0;
+    color: #022736;
+}
+
+#lo1 {
+  background-color: #F00BEE;
+  color: white;
+  background: linear-gradient(to right, #0BEEF0,#F00BEE 10%, #F00BEE 90%, #EEF00B);
+}
+
+#lo2 {
+  background-color: #EEF00B;
+  color: #022736;
+}
+
+#news {
+  display: flex;
+}
+
+h3 {
+  font-family: "Field";
+  font-size: 30px;
+  margin-bottom: 15px;
+  margin-top: 0px;
+}
+
+article {
+  font-family: "Comic Sans MS", Comic Sans, cursive;
+  height: 230px;
+  width: 400px;
+  margin-right: 30px;
+  margin-left: 20px;
+  border: 1px solid #046286;
+  padding: 10px;
+}
+
+article p {
+  margin: 0;
+}
+
+#random {
+  background-color: #011b25;
+}
+
+#random img {
+  display: block;
+  margin: auto;
+}
+
+#recent {
+  background-color: #011b25;
+}
+
+#recent2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+div {
+  padding: 0px 20px;
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
+
+#homme, #fille {
+  height:208px;
+}
+
+#sonic {
+  height:80px;
+  margin-bottom: 5px;
+}
+
+.logo {
+  display: flex;
+}
+
+.search {
+  padding-top: 30px;
+  display: flex;
+}
+
+input, button {
+  height:40px;
+  border: none;
+  background-color: inherit;
+
+}
+
+input {
+  width: 250px;
+  color: white;
+  background-color: #011b25;
+}
+
+button img {
+  height: 40px;
+  width: 40px;
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
+  font-family: "Comic Sans MS", Comic Sans, cursive;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.socialmedia {
+  height: 23px;
+  width: 23px;
+
+}
+#meme_desc{
+  display: flex;
+  width: 95%;
+  margin: 5px 0px 5px 5px;
+  justify-content: center;
+}
+#meme_desc img{
+  width: 25%;
+  height: auto;
+}
+#meme_desc span{
+  border: 1px solid #046286;
+  background-color: #011b25;
+  padding: 10px;
+  margin-left: 10px;
+}
