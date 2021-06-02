@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "Field";
+    src:url('FieldGuide.ttf');
+}
+
+body {
+    background-color: #022736;
+    color: white;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h4 {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-family: "Field";
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+
+div {
+  padding: 0px 20px;
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+/* ====== HEADER SECTION ===== */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+header * {
+    display: flex;
+}
+
+header div:first-child img {
+    height: 80px;
+    padding-bottom: 10px;
+}
+
+h1:first-of-type { /* MEME */
+    color: #1894f8;
+    font-family: "Comic Sans MS", Comic Sans, cursive;
+    font-size: 45px;
+    margin-right: 15px;
+}
+
+h1:last-of-type { /* STATION */
+    color: #F81894;
+    font-family: "Field";
+    font-size: 54px;
+}
+
+header div:last-child {
+    display: flex;
+    padding-top: 30px;
+}
+
+input, button {
+    background-color: inherit;
+    border: none;
+    height: 40px;
+}
+
+input {
+    background-color: #011b25;
+    color: white;
+    padding-left: 15px;
+    width: 250px;
+}
+
+button img {
+    height: 35px;
+    width: 35px;
+}
+
+/* ===== NAV SECTION ===== */
+
+nav:nth-child(2) ul {
+    background-image: linear-gradient(to right,red, red,orange,yellow,green,blue,violet,indigo,indigo);
+    margin: 0px;
+    padding: 0px;
+}
+
+nav:nth-child(2) li {
+    border: 1px solid rgba(0,0,0,0.2);
+    color: black;
+    font: bold 25px "Comic Sans MS", "Comic Sans", cursive;
+    padding: 5px 80px;
+}
+
+/* ===== MEME SECTION ===== */
+
+#meme_desc{
+  display: flex;
+  width: 95%;
+  margin: 5px 0px 5px 5px;
+  justify-content: center;
+}
+#meme_desc img{
+  width: 25%;
+  height: auto;
+}
+#meme_desc span{
+  border: 1px solid #046286;
+  background-color: #011b25;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+/* ===== FOOTER SECTION ===== */
+
+footer a {
+    color: white;
+    font: 1.2em "Comic Sans MS", "Comic Sans", cursive;
+    text-decoration: underline;
+}
+
+footer li {
+    padding-left: 10px;
+}
+
+footer img {
+    height: 23px;
+    width: 23px;
+}
