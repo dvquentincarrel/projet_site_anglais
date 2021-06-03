@@ -109,17 +109,22 @@ nav:nth-child(2) li {
 
 /* ===== MEME SECTION ===== */
 
-#meme_desc{
+body div:nth-child(3) h3 {
+    flex: 0 0 100%; /* Merci StackOverflow, même si c'est vraiment de la triche */
+}
+
+body div:nth-child(3) {
   display: flex;
+  flex-wrap: wrap;
   width: 95%;
   margin: 5px 0px 5px 5px;
   justify-content: center;
 }
-#meme_desc img{
+body div:nth-child(3) img {
   width: 25%;
   height: auto;
 }
-#meme_desc span{
+body div:nth-child(3) article {
   border: 1px solid #046286;
   background-color: #011b25;
   padding: 10px;
