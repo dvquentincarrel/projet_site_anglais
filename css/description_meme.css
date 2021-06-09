@@ -116,6 +116,7 @@ flex: 0 0 100%; /* Merci StackOverflow, même si c'est vraiment de la triche */
 body div:nth-child(3) {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
   width: 95%;
   margin: 5px 0px 5px 5px;
   justify-content: center;
@@ -130,6 +131,15 @@ body div:nth-child(3) article {
   background-color: #011b25;
   padding: 10px;
   margin-left: 10px;
+}
+body div:nth-child(3) p {
+    width: 95%;
+}
+
+body div:nth-child(3) p a {
+    font-family: "Field";
+    font-size: 27px;;
+    text-decoration: underline;
 }
 
 /* ===== FOOTER SECTION ===== */
