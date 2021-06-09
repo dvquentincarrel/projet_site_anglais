@@ -110,12 +110,12 @@ nav:nth-child(2) li {
 /* ===== MEME SECTION ===== */
 
 body div:nth-child(3) h3 {
-    flex: 0 0 100%; /* Merci StackOverflow, même si c'est vraiment de la triche */
+/*flex: 0 0 100%; /* Merci StackOverflow, même si c'est vraiment de la triche */
 }
 
 body div:nth-child(3) {
   display: flex;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
   width: 95%;
   margin: 5px 0px 5px 5px;
   justify-content: center;
